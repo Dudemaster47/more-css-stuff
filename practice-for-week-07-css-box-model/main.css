@@ -8,26 +8,51 @@ html, body {
 #logo {
     /* DO NOT EDIT */
     vertical-align: bottom;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 4px;
 
     /* Your code here */
 }
 
 
 h1 {
-    /* Your code here */
+    display: inline;
 }
 
 /* Phase 2 */
 
 .box {
     /* DO NOT EDIT */
+    display: inline-block;
     vertical-align: top;
+    border-color: black;
+    border-style: dotted;
+    border-width: 4px;
+    background-color: rgb(255, 193, 21);
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
+
 
     /* Your code here */
 }
 
 .alternate {
-    /* Your code here */
+    display: inline-block;
+    vertical-align: top;
+    border-color: black;
+    border-style: dotted;
+    border-width: 4px;
+    background-color: rgb(255, 193, 21);
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: none;
+    padding-right: none;
 }
 
 /* Phase 3 */
@@ -35,20 +60,27 @@ h1 {
 .footer {
     /* DO NOT EDIT */
     position: fixed;
+    display: flex;
+    justify-content: center;
     left: 0;
     right: 0;
     bottom: 0;
+    text-align: center;
 }
 .quote {
     /* DO NOT EDIT */
     background-color: lightgray;
     font-size: larger;
+    width: max-content;
+    margin-bottom: 10px;    
+    padding: 40px;
 
     /* Your code here */
 }
 
 .attribution {
     /* DO NOT EDIT */
+    display: block;
     font-style: italic;
 
     /* Your code here */
