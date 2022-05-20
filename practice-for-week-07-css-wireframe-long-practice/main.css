@@ -1,0 +1,68 @@
+#root {
+
+}
+.header {
+
+}
+.nav__upper{
+    height: 20px;
+    width: auto;
+}
+.upper__left{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    max-height: 20px;
+}
+.upper__right{
+    position: relative;
+    display: inline-block;
+}
+.nav__lower{
+
+}
+.content{
+
+}
+.main__img{
+
+}
+.external__links{
+
+}
+.material__icons{
+
+}
+.grid{
+
+}
+.footer{
+
+}
+.footer__left{
+
+}
+.footer__right{
+
+}
+.about{
+
+}
+.help{
+
+}
+h1{
+
+}
+h2{
+
+}
+ul{
+
+}
+p{
+
+}
+a{
+
+}
