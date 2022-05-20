@@ -17,8 +17,8 @@ html, body {
 
 #yellow-box {
     background-color: #ffff00;
-    /* Fill these in
-    position: ;
+    /* /* Fill these in */
+    position: static;
     bottom: 0;
     left: 0;
     right: 0;
@@ -28,44 +28,44 @@ html, body {
 
 #pink-box {
     background-color: #ff69b4;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
+    /* /* Fill these in */
+    position: relative;
+    bottom: 46px;
+    left: 20%;
+    right: 2cm;
+    top: 1in;
+    z-index: 12;
 }
 
 #blue-box {
     background-color: #00eeee;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: ;
+    /* /* Fill these in */
+    position: absolute;
+    bottom: 70px;
+    left: 40%;
+    right: 30%;
+    top: 8cm;
+    z-index: 13;
 }
 
 #red-box {
     background-color: #ff0000;
-    /* Fill these in
-    position: ;
-    bottom: 0;
+    /* /* Fill these in */
+    position: fixed;
+    bottom: 90%;
     left: 0;
-    right: 0;
-    top: 0;
+    right: 144px;
+    top: 5in;
     z-index: ;
 }
 
 #orange-box {
     background-color: #ffa500;
-    /* Fill these in
-    position: ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
+    /* /* Fill these in */
+    position: sticky;
+    bottom: 100px;
+    left: 80%;
+    right: 10cm;
+    top: 4in;
     z-index: ;
 }
